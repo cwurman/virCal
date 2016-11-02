@@ -1,0 +1,5 @@
+Django==1.10.3
+djangorestframework==3.5.2
+django-postgrespool==0.3.0
+gunicorn==19.1.1
+psycopg2==2.5.1
