@@ -28,8 +28,8 @@ class CourseViews(APIView):
             json_thingy['department'] = course.department
             json_thingy['units'] = course.units
             json_thingy['desc'] = course.desc
-            json_thingy['lectures'] = course.lectures
-            json_thingy['sections'] = course.sections
+            # json_thingy['lectures'] = course.lectures
+            # json_thingy['sections'] = course.sections
 
             serialized.append(json_thingy)
 
